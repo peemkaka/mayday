@@ -3,3 +3,25 @@
 @tailwind components;
 
 @tailwind utilities;
+
+.logo{
+    @apply mx-auto w-24 h-24;
+}
+.container{
+    @apply flex flex-col justify-center items-center p-2;
+  }
+  .inner-container{
+    @apply flex flex-col justify-start items-center p-2;
+  }
+  .heading{
+    @apply text-lg font-bold my-2;
+  }
+  .input{ 
+    @apply border border-gray-500 rounded-md focus:border-purple-500 p-1;
+  }
+  .label{
+    @apply p-2;
+  }
+  .btn{
+    @apply bg-blue-600 text-white focus:outline-none px-4 py-1 mt-2;
+  }
